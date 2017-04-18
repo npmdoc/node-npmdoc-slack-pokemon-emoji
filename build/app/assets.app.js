@@ -811,14 +811,13 @@ local.templateApidocHtml = '\
                                 tmp.module,
                                 tmp.module.prototype
                             ].some(function (dict) {
-                                return typeof dict === 'function' ||
-                                    Object.keys(dict || {}).some(function (key) {
-                                        // bug-workaround - buggy electron getter / setter
-                                        try {
-                                            return typeof dict[key] === 'function';
-                                        } catch (ignore) {
-                                        }
-                                    });
+                                return Object.keys(dict || {}).some(function (key) {
+                                    // bug-workaround - buggy electron getter / setter
+                                    try {
+                                        return typeof dict[key] === 'function';
+                                    } catch (ignore) {
+                                    }
+                                });
                             });
                             if (!isModule) {
                                 return;
