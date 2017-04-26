@@ -1,6 +1,6 @@
 # npmdoc-slack-pokemon-emoji
 
-#### api documentation for  [slack-pokemon-emoji (v1.0.0)](https://github.com/fraserxu/slack-pokemon-emoji)  [![npm package](https://img.shields.io/npm/v/npmdoc-slack-pokemon-emoji.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-slack-pokemon-emoji) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-slack-pokemon-emoji.svg)](https://travis-ci.org/npmdoc/node-npmdoc-slack-pokemon-emoji)
+#### basic api documentation for  [slack-pokemon-emoji (v1.0.0)](https://github.com/fraserxu/slack-pokemon-emoji)  [![npm package](https://img.shields.io/npm/v/npmdoc-slack-pokemon-emoji.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-slack-pokemon-emoji) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-slack-pokemon-emoji.svg)](https://travis-ci.org/npmdoc/node-npmdoc-slack-pokemon-emoji)
 
 #### A tool to upload all the pokemon to slack emoji.
 
